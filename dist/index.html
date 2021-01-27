@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <script
+      src="https://kit.fontawesome.com/dc8a347941.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Digri Brewery</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="header-home">
+      <div class="container">
+        <nav id="main-nav">
+          <img src="img/digri_logo_black.png" alt="Digri Brewery" id="logo" />
+          <ul>
+            <li><a href="index.html" class="current">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="beers.html">Beers</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-content">
+          <h1>
+            We are
+            <span
+              class="txt-type"
+              data-wait="3000"
+              data-words='["Homebrewers", "Digri Brewery"]'
+            ></span>
+          </h1>
+          <p class="lead">
+            We brew beer from fresh ingredients without any presarvites
+          </p>
+          <a href="beers.html" class="btn-light">View our beers</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Section A: Beer common Text-->
+    <section id="home-a" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">We Brew Beer!</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          We make beers from fresh ingredients brewed from the simplest
+          ingredients without presarvites. Malt, hops, water and yeast it´s all
+          it takes.
+        </p>
+        <div class="specials">
+          <div>
+            <i class="fas fa-beer fa-2x"></i>
+            <h3>Malt</h3>
+            <p>
+              We use malt which we mill ourselves. We have control of the
+              milling so it is not to coarse.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-circle fa-2x"></i>
+            <h3>Hops</h3>
+            <p>
+              Fresh hops are the key to brewing good beer. All of our hops ar
+              vacuum sealed and kept in a freezer for mazimum freshness.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-tint fa-2x"></i>
+            <h3>Water</h3>
+            <p>
+              Icelandic water is great for brewing beer although it can lack in
+              minerals for New England IPA.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-bullseye fa-2x"></i>
+            <h3>Yeast</h3>
+            <p>
+              The yeast we use is a liquid yeast which is a pain to handle but
+              the quality of liquid yeast is far superior than dry yeast.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section B Stats-->
+    <section id="home-b" class="text-center py2">
+      <div class="stats">
+        <div>
+          <ul>
+            <li><i class="fas fa-beer fa-3x"></i></li>
+            <li class="stats-title">Beers Brewed</li>
+            <li class="stats-number">73</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-award fa-3x"></i></li>
+            <li class="stats-title">Awards</li>
+            <li class="stats-number">1</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-hourglass-start fa-3x"></i></li>
+            <li class="stats-title">Liters Brewed</li>
+            <li class="stats-number">1743</li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li><i class="fas fa-code-branch fa-3x"></i></li>
+            <li class="stats-title">Bottles Brewed</li>
+            <li class="stats-number">5229</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section C Process-->
+    <section id="home-c" class="text-center py-2">
+      <div class="container">
+        <h2 class="section-title">Our Brewing Process</h2>
+        <div class="bottom-line"></div>
+        <p class="lead">
+          Our process is simple when it comes to brewing our beer. Anybody can
+          do it.
+        </p>
+        <div class="process">
+          <div>
+            <i class="fas fa-file-alt fa-4x process-icon my-2">
+              <div class="process-step">1</div>
+            </i>
+
+            <h3>Creating The Recipe</h3>
+            <p>
+              When creating the recipe it´s best to use a software called
+              Brewfather to design the recipe. If you are new to brewing beer we
+              recommend that you take online courses to learn that process.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-thermometer-full fa-4x process-icon my-2">
+              <div class="process-step">2</div>
+            </i>
+
+            <h3>Brewing The Recipe</h3>
+            <p>
+              We brew our beer on a 2 tier kettle system. One is for boiling and
+              the other on is for mashing. We use the 10 gallon BrewEasy which
+              is controlled by a Raspberry Pi with a Python software which keeps
+              the temps steady in the mashing process.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-hourglass fa-4x process-icon my-2">
+              <div class="process-step">3</div>
+            </i>
+
+            <h3>Fermentation</h3>
+            <p>
+              After the beer has been brewed he is cooled down to 20 degreec
+              celsius and the yeast is pitched in. The fermentation takes about
+              10 days with ipa, pale ale and such beers but for high gravity
+              beers like imperial stouts can take up to 6 months.
+            </p>
+          </div>
+          <div>
+            <i class="fas fa-beer fa-4x process-icon my-2">
+              <div class="process-step">4</div>
+            </i>
+
+            <h3>Enjoying</h3>
+            <p>
+              After fermentation the beer goes into kegs and is flushed with
+              co2. Carbonation has to build up and that takes 7-10 days.
+              Remember to enjoy responsibly.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="main-footer">
+      <div class="footer-content container">
+        <p>Copyright &copy; 2021. All rights reserved</p>
+        <div class="social">
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-facebook"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Typewriter Effect-->
+    <script src="js/typewriter.js"></script>
+  </body>
+</html>
