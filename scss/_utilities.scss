@@ -1,3 +1,5 @@
+// Useful for repeated process
+
 .container {
   max-width: $website-width;
   padding: 0 1.5rem;
@@ -39,7 +41,7 @@ input[class^="btn-"]:hover {
   background-color: $main-color;
 }
 
-// Backgrounds
+// Backgrounds - Don´t have to remember some hex code
 .bg {
   &-main {
     background: $main-color;
